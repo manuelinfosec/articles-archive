@@ -30,9 +30,16 @@ async def on_message(msg):
 
 For a little story behind the preceding code, I was creating an automation bot for Discord using the [discord.py](https://discordpy.readthedocs.io/) library and a colleague approached me while coding. With not so much experience in the Python language, she asked about the lines highlighted with comments above. Basically, those are Python Decorators. I was obliged to explain to her the concept of decorators in Python, and like ever other interested learner, that one gesture of curiosity led to many more queries and questions. 
 
-Although I tried my possible best to put her through, it was more than I could explain at one shot. One of the questions that I couldn't answer enough was, **"Can Python decorators be chained? If yes, how?"**. This got stuck with me, and I thought it was a good idea to explain such to the and so many others, on Medium, the beautiful concept of **Function Decorators**. 
+Although I tried my possible best to put her through, it was more than I could explain at one shot. One of the questions that I couldn't answer enough was, **"Can Python decorators be chained? If yes, how?"**. This got stuck with me, and I thought it was a good idea to explain such to the and so many others, on Medium, the beautiful concept of **Function Decorators**.
+
+<img src="https://github.com/manuelinfosec/articles-archive/blob/main/python-decorator-for-dummies/01/images/article-banner.png" alt="Article banner">
 
 This article aims at introducing Python decorators to you and putting an end to her curiosity. If you'll be involved in the exercises in this article , I recommend you use a Jupyter Notebook for the ease of managing various code chunks.
+
+If you've not, drop a follow on any of my various social handles to get notified when I make new article alerts:
+-   [Twitter](https://twitter.com/manuelinfosec),
+-   [Facebook](http://facebook.com/manuelinfosec),
+-   [YouTube](http://m.youtube.com/ManuelInfoSec).
 
 ## Decorator Basics
 ### Python's Function as objects
