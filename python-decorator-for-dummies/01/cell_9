@@ -1,0 +1,10 @@
+from cell_1_2 import scream
+
+def doSomethingBefore(func): 
+    print("I do something before then I call the function you gave me")
+    print(func())
+
+doSomethingBefore(scream)
+# Outputs: 
+	# I do something before then I call the function you gave me
+	# Yes!
