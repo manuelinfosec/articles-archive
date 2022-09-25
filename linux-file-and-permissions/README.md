@@ -109,7 +109,7 @@ users
 
 Output, on my machine:
 
-![](images/create_files.png)
+![](images/machine_output.png)
 
 **Granting Ownership to a Group**
 At the same time, changing ownership of file from one group to, the `chgrp` (change group) command. Let's change the group owner of `rules.txt`.
@@ -118,7 +118,7 @@ At the same time, changing ownership of file from one group to, the `chgrp` (cha
 sudo chgrp root rules.txt
 ```
 
-![[Pasted image 20220920160109.png]]
+![](images/change_group.png)
 
 Same can be as well applied to the directory. Test yourself a little by changing the owner and group owner of the `charsets` directory. Share your results in the comments, below.
 
@@ -131,7 +131,7 @@ In this section, you'll learn how to change permissions using two different meth
 
 **Changing Permissions with Decimal Notation**
 
-![[Pasted image 20220922234224.png]]
+![](images/change_perm_1.png)
 
 We can represent permissions by using a single number to represent one `rwx` set or permissions. This time, permissions will be represented in binary, so ON and OFF switches are represented by 1 and 0, 
  respectively. You can think of the `rwx` permission as three ON/OFF switches. When all permissions are granted it equated to **111**.
@@ -140,7 +140,7 @@ If you ask me, I'd say there should be a better way of representing these binary
 
 With the octal (0 - 7) numbers system, the range of binary numbers, 000 to 111, can be well represented, meaning we can represent an entire `rwx` set with one digit. The table below contains all possible permission combinations and their binary/octal representatives.
 
-![[Pasted image 20220922234116.png]]
+![](images/binary_table.png)
 
 Using the information, let's go through some examples. To set read permissions, consult the table above:
 
@@ -184,7 +184,8 @@ Owner Group Others
 
 In brief, 600 equates to `rw-------`. Let's confirm from the terminal.
 
-![[Pasted image 20220923000715.png]]
+![](images/chmod_confirm.png)
+
 As expected! Same method can be applied to directories too. I used the first command to set `manuel` as owner of the file from `root`. Try giving maximum permissions to owner, group and other users (this is unsafe for important files).
 
 **Changing Permissions with UGO syntax**
@@ -212,7 +213,7 @@ chmod u=rwx rules.txt
 
 Find more below:
 
-![[Pasted image 20220923001815.png]]
+![](images/more_ugo.png)
 
 You can change permissions for group and other users by replacing `u` with `g` or `o`, as required.
 
@@ -221,5 +222,5 @@ It's worth noting that both the numeric and symbolic method works well. It's up 
 ### Conclusions
 Linux is one of the most secure systems, because it ensures efficient authorization, meaning users see only what they are required to see and nothing more. The idea of permissions applied to users, groups and other users has been made really easy on the Linux system with this article, unlike Windows. And now you know exactly how to do it! 🚀
 
-Signing out,
+*Signing out,*<br>
 Manuel.
