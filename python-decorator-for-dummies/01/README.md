@@ -2,7 +2,7 @@ Get the full experience reading this article on [Medium](https://manuelinfosec.m
 <br><br>
 
 # Python Decorators For Dummies
-## The Best Explanation You Can Find
+## Part One: The Best Explanation You Can Find
 
 Hey reader,
 
