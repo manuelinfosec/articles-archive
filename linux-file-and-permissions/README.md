@@ -4,6 +4,7 @@
 From smartphones to cars, supercomputers. home appliances, desktops, and enterprise servers, the Linux operating system is everywhere. On all of these systems, security should definitely be considered a priority. 
 
 ![](images/banner.png)
+<p align="center"><sub>Photo Credits: <a href="https://blog.resellerspanel.com/virtual-private-servers/secure-linux-vps-practical-tips.html">Resellers Panel Blog</a></sub></p>
 
 Like any professional or enterprise-level operating system, Linux has methods for securing file and directory access. This allows the owner or system administrator — the root user — protect files from unwanted access by granting permissions to selected users. These permissions can include read, write or execute access.
 
